@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: ivory; 
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+.header {
+  background-color: #c3e6e8cb; 
+  color: #4b4b4b;
+  text-align: center;
+  padding: 1rem;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.nav {
+  margin-top: 1rem;
+}
+
+.nav a {
+  margin: 0 1rem;
+  color: #4b4b4b; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+  padding: 2rem;
+  text-align: center;
+  background-color: ivory; 
+}
+
+.section:nth-child(even) {
+  background-color: #c3e6e8cb; 
+}
+
+.section h2 {
+  margin-top: 0;
+  color: #6a4c93; 
+}
+
+/* List Styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.5rem 0;
+  color: #4b4b4b; 
+}
+
+/* Counter App Styles */
+button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #6a4c93; 
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #52357c; 
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #c3e6e8cb; 
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6a4c93; 
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #6a4c93; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #52357c; 
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #c3e6e8cb; 
+  color: #4b4b4b; 
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
